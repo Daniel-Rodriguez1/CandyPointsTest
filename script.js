@@ -80,7 +80,7 @@ function searchPoints() {
 	if (result) {
 		showModal(
 			"Resultados Encontrados",
-			`🍓 Nombre: ${result.Nombre}\n📱 Teléfono: ${result.Telefono}\n📧 Correo: ${result.Correo}\n🍭 Candy Points: ${result.Puntos}\n😈 Numero de Once: ${result["Numero de Once"]}`
+			`🍓 Nombre: ${result.Nombre}\n📱 Teléfono: ${result.Telefono}\n📧 Correo: ${result.Correo}\n🍭 Candy Points: ${result.Puntos}\n😈 Numero de Once: ${result["Numero de Once"]} \n💓 Bias: ${result.Bias}`
 		);
 	} else {
 		showModal("Sin Resultados", "No existen resultados para esa búsqueda.");
